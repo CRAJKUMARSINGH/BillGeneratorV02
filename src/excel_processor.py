@@ -4,7 +4,7 @@ from typing import Dict, List, Any, Optional, Tuple
 import logging
 from datetime import datetime, date
 import numpy as np
-from src.utils import safe_float_conversion, format_currency, round_to_nearest, clean_text
+from utils import safe_float_conversion, format_currency, round_to_nearest, clean_text
 
 logger = logging.getLogger(__name__)
 

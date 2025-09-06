@@ -6,12 +6,10 @@ import tempfile
 from datetime import datetime
 import traceback
 import logging
-from src.excel_processor import ExcelProcessor
-from src.document_generator import DocumentGenerator
-from src.latex_generator import LaTeXGenerator
-from src.pdf_merger import PDFMerger
-from src.zip_packager import ZipPackager
-from src.utils import validate_excel_file, get_timestamp, sanitize_filename
+from excel_processor import ExcelProcessor
+from latex_generator import LaTeXGenerator
+from pdf_merger import PDFMerger
+from utils import validate_excel_file, get_timestamp, sanitize_filename
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
