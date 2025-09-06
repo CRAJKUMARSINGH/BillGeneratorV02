@@ -82,3 +82,19 @@ pympler>=0.9
 
 # Enhanced exception handling
 better-exceptions>=0.3.3
+
+# Performance optimization requirements
+# Optional Redis caching support
+redis>=4.5.0
+
+# Testing requirements
+pytest-benchmark>=4.0.0
+
+# For memory profiling (optional)
+memory-profiler>=0.60.0
+
+# Async support (optional)
+asyncio-mqtt>=0.11.0
+
+# Concurrent processing
+concurrent-futures>=3.1.1
